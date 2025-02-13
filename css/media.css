@@ -1,0 +1,278 @@
+@media screen and (min-width: 479px) {
+    .container{
+        max-width: 728px;
+    }
+
+    /* grid-parent */
+    .grid-parent{
+        display: grid;
+        gap: 0;
+        grid-template-columns: repeat(2 , 1fr);
+        grid-template-rows: auto auto auto auto 390px  auto auto auto;
+        grid-template-areas: 
+        "text-section text-section "
+        "iphone-section iphone-section"
+        "keyboard-section controller"
+        "button-phone button-phone"
+        "twitter icloud"
+        "laptop icloud"
+        "stext-section stext-section"
+        "tv tv"
+        ;
+    }
+
+    .text-section{
+        grid-area: text-section;
+    }
+
+    .iphone-section{
+        grid-area: iphone-section;
+    }
+
+    .keyboard-section{
+        grid-area: keyboard-section;
+    }
+
+    .controller{
+        grid-area: controller;
+    }
+
+    .button-phone{
+        grid-area: button-phone;
+    }
+
+    .twitter{
+        grid-area: twitter;
+    }
+
+    .laptop{
+        grid-area: laptop;
+    }
+
+    .icloud{
+        grid-area: icloud;
+    }
+
+    .stext-section{
+        grid-area: stext-section;
+    }
+
+    .tv{
+        grid-area: tv;
+    }
+
+    /* text section */
+    .text-section h1{
+        font-size: 35px;
+        line-height: 49px;
+        width: 85%;
+        /* overflow: hidden; */
+        margin: auto;
+    }
+
+    /* iphone section */
+    .iphone-section{
+        padding-top: 0;
+    }
+
+    .iphone-section .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .iphone-section .image{
+        width: 230px;
+    }
+
+    .iphone-section .image img{
+        margin: 40px 0 0;
+    }
+
+    .iphone-section .text{
+        width: 34%;
+    }
+
+    /* button-phone section */
+    .button-phone{
+        padding-bottom: 0px;
+    }
+
+    .button-phone .container{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .button-phone .text-part{
+        width: 41%;
+    }
+
+    .button-phone .phone-part{
+        width: 180px;
+    }
+    
+    .button-phone img{
+        margin-top: 20px;
+        width: 450px;
+        transform: translateX(-64%);
+    }
+
+    .button-phone p{
+        padding-top: 0;
+    }
+
+    /* laptop section */
+    .laptop .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .laptop h2{
+        margin: 14%;
+    }
+
+    /* tv section */
+    .tv{
+        padding-bottom: 0;
+    }
+
+    .tv h2{
+        margin: 10px 0 20px;
+        position: static;
+        width: 34%;
+    }
+
+    .tv .container{
+        flex-direction: row;
+        justify-content: center;
+        text-align: start;
+    } 
+}
+
+@media screen and (min-width: 479px) and (max-width: 638px){
+    /* laptop section */
+    .laptop h2{
+        margin: 30%;
+    }
+}
+
+@media screen and (min-width: 991px) {
+    /* grid-parent */
+    .grid-parent{
+        grid-template-columns: repeat(4 , 1fr);
+        grid-template-rows: auto auto auto 202px;
+        grid-template-areas: 
+        "iphone-section iphone-section text-section text-section"
+        "keyboard-section button-phone button-phone icloud"
+        "controller laptop laptop icloud"
+        "twitter stext-section tv tv"
+        ;
+    }
+
+    /* text section */
+    .text-section h1{
+        font-size: 48px;
+        line-height: 60px;
+        width: 85%;
+    }
+
+    /* iphone section */
+    .iphone-section .container{
+        width: 100%;
+    }
+
+    /* button-phone section */
+
+    .button-phone{
+        overflow: hidden;
+    }
+
+    .button-phone img{
+        margin-top: 45px;
+        position: relative;
+        bottom: -5%;
+    }
+
+    /* controller */
+    .controller{
+        padding: 0;
+    }
+
+    .controller h2{
+        margin:10px auto 40px;
+        width: 70%;
+    }
+
+    /* laptop section */
+    .laptop h2{
+        margin: 8%;
+    }
+
+    .laptop img{
+        position: relative;
+        bottom: -10%;
+    }
+
+    /* small-text section */
+    .stext-section{
+        padding-bottom: 0;
+    }
+
+    /* tv section */
+    .tv img{
+        top: -30px;
+    }
+
+    .tv{
+        overflow: hidden;
+    }
+
+    .tv h2{
+        position: relative;
+        top: -30px;
+    }
+
+    /* twitter section */
+    .twitter{
+        overflow: hidden;
+    }
+
+    .twitter .container{
+        transform: translateY(-18px);
+    }
+}
+
+@media screen and (min-width: 1065px) {
+    .grid-parent{
+        grid-template-rows: auto auto auto 200px;
+    }
+
+    /* laptop section */
+    .laptop h2{
+        margin: 6%;
+    }
+
+    /* button-phone section */
+    .button-phone img{
+        margin-top: 30px;
+    }
+
+    /* iphone section */
+    .iphone-section .image img{
+        transform: translateX(-5%);
+    }
+
+    /* small-text section */
+    .stext-section{
+        padding-top: 40px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    /* laptop section */
+    .laptop h2{
+        margin: 3%;
+    }
+}

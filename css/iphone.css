@@ -1,0 +1,29 @@
+.iphone-section{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+}
+
+.iphone-section h2{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: var(--Dark-Gray);
+}
+
+.iphone-section p{
+    color: var(--Spanish-Gray);
+}
+
+.iphone-section .text{
+    padding-left: 9px;
+}
+
+.iphone-section .image{
+    width: 100%;
+}
+
+.iphone-section .image img{
+    margin: 40px auto 0;
+    width: 230px;
+    display: block;
+}

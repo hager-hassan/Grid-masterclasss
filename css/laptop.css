@@ -1,0 +1,33 @@
+.laptop{
+    background-image: url('../images/laptop-bg.png');
+    background-position: 50% 100%;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-color: #93b7b7;
+    position: relative;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.laptop span{
+    position: absolute;
+    color: var(--white);
+    font-size: 8px;
+    background-color: #fa694c;
+    padding: 0 10px;
+    border-radius: 5px;
+    left: 30px;
+    top: 20px;
+}
+
+.laptop h2{
+    padding-top: 31px;
+    padding-bottom: 31px;
+}
+
+.laptop img{
+    display: block;
+    position: relative;
+    left: -10%;
+    width: 90%;
+}

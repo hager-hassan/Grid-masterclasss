@@ -1,0 +1,29 @@
+.controller .container{
+    width: 100%;
+}
+
+.controller{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--section-color);
+}
+
+.controller img{
+    width: 248px;
+    position: relative;
+    left: -7%;
+}
+
+.controller h2{
+    color: var(--Dark-Gray);
+    margin: 10px 0 20px;
+}
+
+.controller a{
+    color: var(--Bright-Cyan);
+}

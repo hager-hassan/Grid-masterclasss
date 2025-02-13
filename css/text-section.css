@@ -1,0 +1,27 @@
+.text-section{
+    background-color: var(--section-color);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.text-section .container{
+    width: 100%;
+}
+
+.text-section h1{
+    color: var(--Dark-Gray);
+    padding-top: 20px;
+    padding-bottom: 10px;
+    /* font-size: 40px; */
+    /* line-height: 53px; */
+}
+
+.text-section a{
+    color: var(--Bright-Cyan);
+    text-decoration: underline;
+}

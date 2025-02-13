@@ -1,0 +1,26 @@
+.button-phone{
+    padding-top: 68px;
+    padding-bottom: 50px;
+}
+
+.button-phone h2{
+    margin-top: 10px;
+    color: var(--Dark-Gray);
+}
+
+.button-phone img{
+    width: 193%;
+    margin-top: 40px;
+    transform: translateX(-55%);
+    display: block;
+}
+
+.button-phone p{
+    color: var(--Spanish-Gray);
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+.button-phone a{
+    color: var(--Bright-Cyan);
+}

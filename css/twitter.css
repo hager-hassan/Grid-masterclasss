@@ -1,0 +1,32 @@
+.twitter{
+    background-color: #38D5F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* overflow: hidden; */
+}
+
+.twitter .container{
+    display: flex;
+    justify-content: center;
+    /* transform: translateY(-20px); */
+    align-items: center;
+}
+
+.twitter .circle{
+    width: 240px;
+    border-radius: 50%;
+    height: 240px;
+    background-color: #35ceed;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.twitter img{
+    width: 44px;
+    margin-bottom: 10px;
+}
